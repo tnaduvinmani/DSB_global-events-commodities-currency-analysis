@@ -1,0 +1,58 @@
+{
+  "Naive_Gold": {
+    "Model": "Naive (RW)",
+    "Asset": "Gold",
+    "RMSE": 227.497,
+    "MAE": 159.5215,
+    "MAPE_%": 4.3032
+  },
+  "Naive_Silver": {
+    "Model": "Naive (RW)",
+    "Asset": "Silver",
+    "RMSE": 10.3004,
+    "MAE": 5.1831,
+    "MAPE_%": 8.4503
+  },
+  "Naive_Brent": {
+    "Model": "Naive (RW)",
+    "Asset": "Brent",
+    "RMSE": 8.4314,
+    "MAE": 4.9746,
+    "MAPE_%": 6.4984
+  },
+  "ARIMA_Gold": {
+    "Model": "ARIMA(1, 1, 2)",
+    "Asset": "Gold",
+    "RMSE": 218.9758,
+    "MAE": 144.1921,
+    "MAPE_%": 3.902
+  },
+  "ARIMA_Silver": {
+    "Model": "ARIMA(3, 1, 3)",
+    "Asset": "Silver",
+    "RMSE": 10.159,
+    "MAE": 5.1831,
+    "MAPE_%": 8.5764
+  },
+  "ARIMA_Brent": {
+    "Model": "ARIMA(1, 1, 2)",
+    "Asset": "Brent",
+    "RMSE": 8.4757,
+    "MAE": 5.0143,
+    "MAPE_%": 6.546
+  },
+  "ARIMAX_Gold": {
+    "Model": "ARIMAX+VIX",
+    "Asset": "Gold",
+    "RMSE": 221.5108,
+    "MAE": 152.1135,
+    "MAPE_%": 4.1444
+  },
+  "ARIMAX_Brent": {
+    "Model": "ARIMAX+DXY",
+    "Asset": "Brent",
+    "RMSE": 9.9197,
+    "MAE": 6.2101,
+    "MAPE_%": 8.0548
+  }
+}

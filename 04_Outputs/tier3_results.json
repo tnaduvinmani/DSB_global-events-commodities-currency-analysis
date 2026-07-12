@@ -1,0 +1,20 @@
+{
+  "T3_1_VECM_Gold": {
+    "RMSE": 220.8031,
+    "MAE": 147.6456,
+    "MAPE": 3.9817
+  },
+  "T3_2_Markov_Brent": {
+    "n_regimes": 2,
+    "switching_variance": true,
+    "stress_regime_idx": 1,
+    "AIC": -3677.0098,
+    "BIC": -3638.066
+  },
+  "T3_3_USDG": {
+    "peg_dev_adf_stat": -0.9819,
+    "peg_dev_adf_p": 0.7598,
+    "peg_dev_std": 6.8e-05,
+    "swift_usd_mean_pct": 50.14
+  }
+}

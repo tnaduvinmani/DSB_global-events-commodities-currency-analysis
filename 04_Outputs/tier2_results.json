@@ -1,0 +1,44 @@
+{
+  "RF_Gold": {
+    "Model": "RandomForest(500)",
+    "Asset": "Gold",
+    "RMSE": 236.8626,
+    "MAE": 154.0699,
+    "MAPE_%": 4.0695
+  },
+  "RF_Silver": {
+    "Model": "RandomForest(500)",
+    "Asset": "Silver",
+    "RMSE": 15.2368,
+    "MAE": 8.3482,
+    "MAPE_%": 12.4288
+  },
+  "RF_Brent": {
+    "Model": "RandomForest(500)",
+    "Asset": "Brent",
+    "RMSE": 8.4525,
+    "MAE": 4.9526,
+    "MAPE_%": 6.4891
+  },
+  "LightGBM_Gold": {
+    "Model": "LightGBM",
+    "Asset": "Gold",
+    "RMSE": 278.3344,
+    "MAE": 183.0056,
+    "MAPE_%": 4.7998
+  },
+  "LightGBM_Silver": {
+    "Model": "LightGBM",
+    "Asset": "Silver",
+    "RMSE": 12.3277,
+    "MAE": 6.4988,
+    "MAPE_%": 10.5382
+  },
+  "LightGBM_Brent": {
+    "Model": "LightGBM",
+    "Asset": "Brent",
+    "RMSE": 8.9203,
+    "MAE": 5.2255,
+    "MAPE_%": 6.785
+  }
+}
