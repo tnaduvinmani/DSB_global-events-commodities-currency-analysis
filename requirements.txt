@@ -16,6 +16,7 @@ ruptures>=1.1,<2.0
 
 # External data download
 pandas-datareader>=0.10,<0.11
+yfinance>=0.2,<0.3           # out-of-sample validation (forecast_validation_may_jun_2026.ipynb)
 
 # Visualization
 matplotlib>=3.7,<4.0
